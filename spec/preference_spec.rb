@@ -1,0 +1,3 @@
+describe Preference do
+
+end

@@ -1,0 +1,38 @@
+Student
+  @preference - [first_choice, second_choice, ...]
+  @schedule - {9am: seminar1, 10am: seminar2}
+  @teacher - teacher object
+  @homeroom - links to teachers homeroom
+  #get_preferences
+  #generate_schedule(preference)
+
+Teacher
+  @name - string
+  @homeroom - string
+  @students - student objects in the homeroom
+  .list
+
+Preference
+  @first.choice
+  @second.choice
+  @third.choice
+  @fourth.choice
+  @fifth.choice
+  @sixth.choice
+  @seventh.choice
+  @eighth.choice
+  @ninth.choice
+  @tenth.choice
+  #get_p
+
+
+Schedule
+  .generate_schedule(preferences)
+
+Seminar
+  @topic
+  @description
+  @presentor
+  @students_enrolled - [student object, student2 object]
+  .list - shows all seminars
+  #pick - choose seminar

@@ -1,0 +1,3 @@
+class Seminar
+
+end
